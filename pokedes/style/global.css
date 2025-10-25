@@ -1,0 +1,28 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #0f1923;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body > main {
+  flex: 1 0 auto;
+  height: auto !important;
+  padding-top: 100px;
+}
+body > main,
+main {
+  background: linear-gradient(to right, #141e30, #243b55);
+  font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+  background-clip: padding-box; 
+}
+

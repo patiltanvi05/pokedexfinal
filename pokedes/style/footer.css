@@ -1,0 +1,10 @@
+footer {
+  text-align: center;
+  padding: 15px;
+  background:  linear-gradient(to right, #141e30, #243b55);
+  color: whitesmoke;
+  margin-top: 30px;
+  font-weight: 600;
+    font-family: 'Courier New', monospace;
+    
+}

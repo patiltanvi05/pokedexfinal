@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Regional Pokémon</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/header.css">
+  <link rel="stylesheet" href="style/regional.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/global.css">
+</head>
+<body>
+  <header>
+     <div class="top">
+        <div class="left">
+           <img class="logo-left" src="images/final-1.jpg">
+           
+           <div class="dropdown" id="classic-dropdown" tabindex="0" aria-haspopup="listbox" aria-expanded="false">
+             <button class="dropdown-toggle" type="button" aria-label="Open Pokémon categories"style="color: whitesmoke;font-family: 'Courier New', Courier, monospace;">
+               Regional Pokémon
+               <span class="arrow" aria-hidden="true"></span>
+             </button>
+             <ul class="dropdown-list" role="listbox" tabindex="-1">
+               <li role="option" data-href="index.html" style="color: whitesmoke;font-family: 'Courier New', Courier, monospace;">Starter Pokémon</li>
+               <li role="option" data-href="legendary.html" style="color: whitesmoke;font-family: 'Courier New', Courier, monospace;">Legendary Pokémon</li>
+               <li role="option" data-href="mythical.html" style="color: whitesmoke;font-family: 'Courier New', Courier, monospace;">Mythical Pokémon</li>
+               <li role="option" data-href="regional.html" style="color: whitesmoke;font-family: 'Courier New', Courier, monospace;">Regional Pokémon</li>
+               <li role="option" data-href="psuedo.html" style="color: whitesmoke;font-family: 'Courier New', Courier, monospace;">Psuedo-Legendary Pokémon</li>
+             </ul>
+           </div>
+        </div>
+        <div class="middle">
+           <p class="main-logo">Pokédex</p>
+        </div>
+        <div class="right">
+            <img src="images/user-2.jpg" class="logo-right">  
+         </div>
+     </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Regional Pokémon Forms</h2>
+      <div class="pokemon-list" id="regional-list"></div>
+    </section>
+  </main>
+
+  <footer> 
+    <p>&copy; 2025 Pokédex.com . All rights reserved.</p>
+  </footer>
+
+  <script src="scripts/header.js"></script>
+  <script src="scripts/regional.js"></script>
+  
+</body>
+</html>
